@@ -1,0 +1,14 @@
+﻿@model MVCCommonHelper.Models.Contact
+
+
+<h2>@Model.Title</h2>
+<h3>@Model.Message</h3>
+
+<address>
+    @Model.Address
+</address>
+
+<address>
+    <strong>Support:</strong>   <a href="mailto:@Model.Email">@Model.Email</a><br />
+    <strong>Web:</strong> <a href="@Model.Website">@Model.Website</a>
+</address>

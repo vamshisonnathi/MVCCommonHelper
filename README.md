@@ -5,6 +5,6 @@ Follow below steps to use <a href="https://www.nuget.org/packages/MVCCommonHelpe
 
 •	Install MVCCommonHelper Package from nugget Manager Console.
 •	Create object instance for CommonHelper class and call <b>GenerateViewToString</b> method with required parameters.
-•	Here it is the razor view html string from GenerateViewToString.
+•	GenerateViewToString method returns the html string.
 
 <a href="https://github.com/vamshisonnathi/MVCCommonHelper/wiki">Click here</a> to see more details.
